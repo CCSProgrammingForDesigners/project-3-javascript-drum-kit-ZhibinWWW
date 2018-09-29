@@ -1,0 +1,52 @@
+html {
+    font-size: 10px;
+    background: url(https://cdn-ak.f.st-hatena.com/images/fotolife/l/loud-w/20170310/20170310175809.jpg);
+    background-size: cover;
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.drums {
+    display: flex;
+    flex: 1;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.drum {
+    border: .4rem solid black;
+    border-radius: .5rem;
+    margin: 1rem;
+    font-size: 20px;
+    padding: 1rem .5rem;
+    transition: all .07s ease;
+    width: 60px;
+    text-align: center;
+    color: rgb(93, 238, 231);
+    background: rgba(0, 0, 0, 0.4);
+    text-shadow: 0 0 .5rem black;
+}
+
+.playing {
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 1rem #ffc600;
+}
+
+h4 {
+    display: block;
+    font-size: 4rem;
+}
+
+.sound {
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    color: #ffc600;
+}
